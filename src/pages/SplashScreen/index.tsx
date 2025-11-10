@@ -5,7 +5,7 @@ import Logo from '../../assets/LogoUK.svg';
 const SplashScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.replace('SignIn');
+      navigation.replace('LandingPage');
     }, 3000); // Navigate to SignIn after 3 seconds
   }, []);
   return (
