@@ -8,3 +8,5 @@ import SplashScreen from './src/pages/SplashScreen';
 import SignIn from './src/pages/SignIn';
 
 AppRegistry.registerComponent(appName, () => SplashScreen);
+
+
